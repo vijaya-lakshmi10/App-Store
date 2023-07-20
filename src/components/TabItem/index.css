@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.tabs-list{
+    display: flex;
+    margin-right:10px;
+}
+.active-tab{
+    cursor: pointer;
+    outline: none;
+    border:0;
+    background: none;
+    color: #2563eb;
+    font-size: 18px;
+    font-family: "Bree Serif";
+    text-decoration: underline;
+}
+.non-active-tab{
+    cursor: pointer;
+    outline: none;
+    border:0;
+    background: none;
+    color: #dfe2e5;
+    font-size: 18px;
+    font-family: "Bree Serif";
+    text-decoration: underline;
+}

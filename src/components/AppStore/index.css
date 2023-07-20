@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.bg-container{
+    background: linear-gradient(to bottom, #fff1eb,#ace0f9);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: #1e293b;
+    font-size: 32px;
+    font-family: "Bree Serif";
+}
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.searchbar{
+    font-family: "Bree Serif";
+    font-size: 14px;
+    color:#7b8794;
+    border:2px solid #7b8794;
+}
+.search-img{
+    height:30px;
+    width:30px;
+}
+.tabs-container{
+    list-style-type: none;
+    display: flex;
+    
+}
+.apps-container{
+    list-style-type: none;
+    display: flex;
+}
+.search-filtered-apps{
+    list-style-type: none;
+    display: flex;
+}
